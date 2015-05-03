@@ -1,0 +1,116 @@
+.middle_key
+{
+  float: left;
+  position: relative;
+  width: 50px;
+  height: 215px;
+
+  /* position: absolute; */
+  top: 6px;
+  z-index: 100;
+
+}
+.key_black1
+{
+
+    float: left;
+    position: relative;
+    width: 44px;
+    height: 210px;
+    background-color: #565553;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    /* position: absolute; */
+    top: 6px;
+    z-index: 100;
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    border-top: 0px;
+/*-moz-box-shadow: 0 -9px 10px 9px #303030 inset, 0 -15px #F7F7F7 inset;
+-webkit-box-shadow: 0 -9px 10px 9px #303030 inset, 0 -15px #F7F7F7 inset;
+box-shadow: 0 -9px 10px 9px #303030 inset, 0 -15px #F7F7F7 inset;
+*/}
+.key_black
+{
+
+    float: left;
+    position: relative;
+    width: 44px;
+    height: 215px;
+    background-color: #1E1B16;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    /* position: absolute; */
+    top: 6px;
+    z-index: 100;
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    border-top: 0px;
+    -moz-box-shadow: 0 -9px 10px 9px #303030 inset, 0 -15px #F7F7F7 inset;
+    -webkit-box-shadow: 0 -9px 10px 9px #303030 inset, 0 -15px #F7F7F7 inset;
+    box-shadow: 0 -9px 10px 9px #303030 inset, 0 -15px #F7F7F7 inset;
+}
+.key_white1
+{
+    border: #626262;
+    border-width: 2px;
+    border-style: solid;
+    width: 70px;
+    height: 360px;
+            /*position: absolute;
+            left: 40px;
+            top: 250px;*/
+            position: relative;
+            float: left;
+            /*box-shadow: 0 -10px 2px 0px #838383 inset, 0 -60px 40px 10px #EEEEEE inset;*/
+            border-radius: 0 0 15px 15px;
+
+
+        }
+        .key_white
+        {
+            border: #626262;
+            border-width: 2px;
+            border-style: solid;
+            width: 70px;
+            height: 360px;
+            /*position: absolute;
+            left: 40px;
+            top: 250px;*/
+            position: relative;
+            float: left;
+            box-shadow: 0 -10px 2px 0px #838383 inset, 0 -60px 40px 10px #EEEEEE inset;
+            border-radius: 0 0 15px 15px;
+
+
+        }
+        .img_background
+        {
+            height: 606px;
+z-index: -1;
+position: absolute;
+left: -7px;
+top: 18px;
+width: 92%;
+
+            
+        }
+        .white_key_names
+        {
+font-size: 50px;
+position: absolute;
+top: 75%;
+left: 29%;
+
+        }
+        .black_key_names
+        {
+font-size: 50px;
+position: absolute;
+top: 70%;
+left: 25%;
+color: azure;
+
+        }
